@@ -1,5 +1,4 @@
-// Be sure to put locations.tsv and names.tsv
-// from b_getting_locations into your current data folder!
+// changes to branch
 
 
 //introduce variables and objects
