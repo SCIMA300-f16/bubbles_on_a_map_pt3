@@ -1,5 +1,6 @@
 // Be sure to put locations.tsv and names.tsv
 // from b_getting_locations into your current data folder!
+//lily's branch
 
 
 //introduce variables and objects
@@ -17,7 +18,7 @@ float closestTextX;
 float closestTextY;
 
 void setup() {
-  size(640, 400);
+  size(1000, 400);
   mapImage = loadImage("oakland_map.png");
 
   //assign tables to object
