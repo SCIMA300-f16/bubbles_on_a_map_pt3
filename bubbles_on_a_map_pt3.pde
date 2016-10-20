@@ -61,7 +61,7 @@ void draw() {
 
 //if the closestDist variable does not equal the maximum float variable....
   if (closestDist != MAX_FLOAT) {
-    fill(0);
+    fill(255);
     textAlign(CENTER);
     text(closestText, closestTextX, closestTextY);
   }
@@ -78,11 +78,11 @@ void drawData(float x, float y, String id) {
     //remap the value to a range between 1.5 and 15
     radius = map(value, 0, dataMax, 1.5, 15); 
     //and make it this color
-    fill(#4422CC);
+    fill(#DE1F1F);
   } else {
     //otherwise, if the number is negative, make it this color.
     radius = map(value, 0, dataMin, 1.5, 15);
-    fill(#FF4422);
+    fill(#21DE1F);
   }
   //make a circle at the x and y locations using the radius values assigned above
   ellipseMode(RADIUS);
