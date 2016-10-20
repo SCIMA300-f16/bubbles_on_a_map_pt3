@@ -78,7 +78,7 @@ void drawData(float x, float y, String id) {
     //remap the value to a range between 1.5 and 15
     radius = map(value, 0, dataMax, 1.5, 15); 
     //and make it this color
-    fill(#4422CC);
+    fill(#0000ff);
   } else {
     //otherwise, if the number is negative, make it this color.
     radius = map(value, 0, dataMin, 1.5, 15);
