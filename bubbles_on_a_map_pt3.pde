@@ -18,7 +18,7 @@ float closestTextY;
 
 void setup() {
   size(640, 400);
-  mapImage = loadImage("oakland_map.png");
+  mapImage = loadImage("brain.jpg");
 
   //assign tables to object
   locationTable = new Table("locations.tsv");  
